@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				therapy: {
+					purple: '#8B5CF6',
+					lavender: '#A78BFA',
+					lightPurple: '#C4B5FD',
+					paleBlue: '#D6DEFF', 
+					softBlue: '#93C5FD',
+					calmBlue: '#60A5FA',
+					mint: '#A7F3D0',
+					paleGreen: '#D1FAE5',
+					lightPink: '#FECDD3',
+					blush: '#FDA4AF'
 				}
 			},
 			borderRadius: {
@@ -84,11 +97,30 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-slow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.8' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'breathe': {
+					'0%, 100%': { transform: 'scale(1)' },
+					'50%': { transform: 'scale(1.05)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-slow': 'pulse-slow 3s infinite ease-in-out',
+				'float': 'float 6s infinite ease-in-out',
+				'breathe': 'breathe 8s infinite ease-in-out'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-therapy': 'linear-gradient(to right, #8B5CF6, #60A5FA)',
 			}
 		}
 	},
