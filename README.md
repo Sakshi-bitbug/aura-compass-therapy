@@ -17,9 +17,9 @@ Check out the project here: [Aura Compass Therapy](https://aura-compass-therapy.
 ## Tech Stack
 
 - *Frontend*: HTML, CSS, JavaScript
-- *Backend*: Node.js / Python (adjust based on what you used)
+- *Backend*: Node.js / Python
 - *AI Model*: OpenAI GPT / Custom NLP logic
-- *Deployment*: Lovable.app
+  
 
 ## How It Works
 
@@ -43,7 +43,6 @@ Check out the project here: [Aura Compass Therapy](https://aura-compass-therapy.
 - Gayatri Ladhe
 - Gauri Darokar
  
-- [Team = CODEELEVATE]
 
 ## License
 
